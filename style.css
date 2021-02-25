@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.header
+{
+    height: 100vh;
+
+}
+.navbar-style{
+    box-shadow: 0 5px 10px #efefef;
+    text-transform: uppercase;
+}
+.logo{
+    height: 48px;
+    padding: 2px 10px;
+}
+.icon-bar{
+    background: darkorange;
+}
+li a{
+    color: #333;
+}
+.big-text{
+    font-size: 52px;
+    margin:20px 0;
+    color: rgb(146, 1, 1);
+}
+a.btn{
+    margin: 30px 10px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+}
+a.btn-first
+{
+    background-color: darkorange;
+    color:#fff;
+}
+a.btn-second
+{
+    background-color:transparent;
+    border:px solid darkorange;
+    color: #333;
+}
+a.btn:hover{
+    background: darkorange;
+    border:none;
+    color:#fff;
+    box-shadow: 5px 5px 10px #999;
+    transition:0.3s;
+}
+.banner-info , .banner-image
+{
+    margin: 30px 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background:url(image/b2.jpg.jpeg);
+    background-size:cover;
+    background-position: center;
+    font-family: sans-serif;
+
+
+}
+.Reg-box{
+    width: 320px;
+    height: 420px;
+    background: rgb(255, 204, 204);
+    color:#fff;
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.contact{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.Reg-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold ;
+}
+.Reg-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.Reg-box input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:#fff;
+    font-size: 16px;
+}
+.Reg-box input[type="submit"]
+{
+    border:none;
+    outline:none;
+    height: 40px;
+    background: #ffa0a0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.Reg-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #941c1c;
+    color: #000;
+}
+.Reg-box a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color:darkgrey;
+}
+.Reg-box a:hover{
+     
+    color:#550202;
+}
+.contact-title
+{
+    margin-top: 100px;
+    color: rgb(241, 125, 125);
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+.contact-title h1{
+    font-size: 32px;
+    line-height: 10px;
+}
+.contact-title p{
+    font-size: 16px;
+}
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+.form-control
+{
+ width: 600px;
+ background: transparent;
+ border: none;
+ outline: none;
+ border-bottom: 1px solid grey;
+ color:#fff;
+ font-size: 18px;
+ margin-bottom: 16px;
+}
+input
+{
+    height: 45px;
+}
+form .submit
+{
+    background: #ff7866;
+    border-color:transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+form .submit:hover{
+    background-color:#f44336 ;
+    cursor: pointer;
+}
+#aboutus h2{margin-bottom: 25px;}
+.img-wrap{width:100%}
+.img-wrap img{width: 100%;padding: 10px;border-radius: 50%;box-shadow: 0 0 10px #999999;}
+
+#COMMUNITY h2{margin-bottom: 25px;}
+.img-wrap{width:100%}
+.img-wrap img{width: 100%;padding: 10px;border-radius: 50%;box-shadow: 0 0 10px #999999;}
+
+
+
